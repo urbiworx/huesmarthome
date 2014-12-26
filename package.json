@@ -1,0 +1,16 @@
+{
+  "name": "hue_sh",
+  "description": "Hue Emulator for Smarthome",
+  "keywords": [ "hue","bridge", "emulator", "philips" ],
+  "author": "Marcel",
+  "version": "0.0.1",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "server.js",
+  "dependencies": {
+    "hapi": "~1.11.1",
+	"network": "~0.1.3",
+	"asyncjs": "~0.0.9"
+  },
+  "engine": "node >= 0.8.0"
+}
